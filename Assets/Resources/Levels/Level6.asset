@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2453a5b0e284acc4b97057e51735e947, type: 3}
+  m_Name: Level6
+  m_EditorClassIdentifier: 
+  width: 8
+  height: 8
+  boardLayout:
+  - x: 3
+    y: 3
+    tileKind: 2
+  - x: 3
+    y: 4
+    tileKind: 2
+  - x: 4
+    y: 3
+    tileKind: 2
+  - x: 4
+    y: 4
+    tileKind: 2
+  - x: 1
+    y: 1
+    tileKind: 2
+  - x: 6
+    y: 6
+    tileKind: 2
+  - x: 1
+    y: 6
+    tileKind: 2
+  - x: 6
+    y: 1
+    tileKind: 2
+  dots:
+  - {fileID: 2537163346283535882, guid: fa3ad69e38a7e9945b07ec07957679b0, type: 3}
+  - {fileID: 5721706864201431702, guid: ae6d06eaf0eb0f642a2887927d6fbe9a, type: 3}
+  - {fileID: 5396413948838106956, guid: 7a26c879d52537647bc34174a899e68d, type: 3}
+  - {fileID: 110879240835981735, guid: bc1ef50a44c30a94ca28ac1b0ba1ace7, type: 3}
+  - {fileID: 6857288272862558491, guid: b313127b062c0de4cbb2dff3dcccb924, type: 3}
+  scoreGoals: 6400000058020000e8030000
+  endGameRequirements:
+    gameType: 1
+    counterValue: 100
+  levelGoals:
+  - numberNeeded: 0
+    numberCollected: 0
+    completed: 0
+    goalSprite: {fileID: 21300000, guid: 9aa02579e42824cf08f32c3514102b24, type: 3}
+    tag: 12
